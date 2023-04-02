@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgItem1"
+                android:layout_marginTop="20dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/toolbar"
+                android:src="@drawable/chicken"/>
+
+            <TextView
+                android:id="@+id/txtNameItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="90dp"
+                android:layout_toRightOf="@+id/imgItem1"
+                android:text="Dish Name: Chicken"
+                android:textColor="#010203"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdtypeItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem1"
+                android:layout_below="@+id/txtNameItem1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Dish Type: Non Veg"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <TextView
+                android:id="@+id/txtratingItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem1"
+                android:layout_below="@+id/txtdtypeItem1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Rating: 4.5/5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <ImageView
+                android:id="@+id/imgItem2"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/imgItem1"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_paneer"
+                />
+
+            <TextView
+                android:id="@+id/txtNameItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtratingItem1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@+id/imgItem2"
+                android:text="Dish Name: Paneer"
+                android:textColor="#010203"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdtypeItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem2"
+                android:layout_below="@+id/txtNameItem2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Dish Type: Veg"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <TextView
+                android:id="@+id/txtratingItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem2"
+                android:layout_below="@+id/txtdtypeItem2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Rating: 4.0/5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+
+            <ImageView
+                android:id="@+id/imgItem3"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/imgItem2"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_mushroom" />
+
+            <TextView
+                android:id="@+id/txtNameItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtratingItem2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@+id/imgItem3"
+                android:text="Dish Name: Mushroom"
+                android:textColor="#010203"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdtypeItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem3"
+                android:layout_below="@+id/txtNameItem3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Dish Type: Veg"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <TextView
+                android:id="@+id/txtratingItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem3"
+                android:layout_below="@+id/txtdtypeItem3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Rating: 4.2/5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <ImageView
+                android:id="@+id/imgItem4"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/imgItem3"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_uttapam"
+                />
+
+            <TextView
+                android:id="@+id/txtNameItem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtratingItem3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@+id/imgItem4"
+                android:text="Dish Name: Uttappam"
+                android:textColor="#010203"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdtypeItem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem4"
+                android:layout_below="@+id/txtNameItem4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Dish Type: Veg"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <TextView
+                android:id="@+id/txtratingItem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem4"
+                android:layout_below="@+id/txtdtypeItem4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Rating: 4.2/5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
