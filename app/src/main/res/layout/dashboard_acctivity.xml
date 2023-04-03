@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/toolbar"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="90dp"
+                android:layout_marginTop="80dp"
                 android:layout_toRightOf="@+id/imgItem1"
                 android:text="Dish Name: Chicken"
                 android:textColor="#010203"
@@ -199,6 +199,167 @@
                 />
 
         </RelativeLayout>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgItem5"
+                android:layout_marginTop="20dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/toolbar"
+                android:src="@drawable/img"
+                />
+
+            <TextView
+                android:id="@+id/txtNameItem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtratingItem4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@+id/imgItem5"
+                android:text="Dish Name: Chicken Biryani"
+                android:textColor="#010203"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdtypeItem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem5"
+                android:layout_below="@+id/txtNameItem5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Dish Type: Non Veg"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <TextView
+                android:id="@+id/txtratingItem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem5"
+                android:layout_below="@+id/txtdtypeItem5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Rating: 4.5/5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgItem6"
+                android:layout_marginTop="20dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/imgItem5"
+                android:src="@drawable/img_1"
+                />
+
+            <TextView
+                android:id="@+id/txtNameItem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtratingItem5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@+id/imgItem6"
+                android:text="Dish Name: Dosa"
+                android:textColor="#010203"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdtypeItem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem6"
+                android:layout_below="@+id/txtNameItem6"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Dish Type: Veg"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <TextView
+                android:id="@+id/txtratingItem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem6"
+                android:layout_below="@+id/txtdtypeItem6"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Rating: 4.3/5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgItem7"
+                android:layout_marginTop="20dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/imgItem6"
+                android:src="@drawable/img_2"
+                />
+
+            <TextView
+                android:id="@+id/txtNameItem7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtratingItem6"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@+id/imgItem7"
+                android:text="Dish Name: Burger Value Meal"
+                android:textColor="#010203"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtdtypeItem7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem7"
+                android:layout_below="@+id/txtNameItem7"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Dish Type: Veg/Non Veg"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+            <TextView
+                android:id="@+id/txtratingItem7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgItem7"
+                android:layout_below="@+id/txtdtypeItem7"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Rating: 4.7/5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#010203"
+                />
+
+        </RelativeLayout>
+
+
 
     </LinearLayout>
 </ScrollView>

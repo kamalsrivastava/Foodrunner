@@ -3,6 +3,7 @@ package com.example.foodrunner
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import android.widget.Toast
 
 class DashboardActivity : AppCompatActivity() {
 
@@ -38,7 +39,8 @@ class DashboardActivity : AppCompatActivity() {
                 txtData.text = text
             } else if(data == "login") {
                 /*No data was received through the intent*/
-                txtData.text = ""
+                Toast.makeText(this@DashboardActivity, "Welcome User", Toast.LENGTH_SHORT).show()
+
             }
         }
     }
